@@ -1,8 +1,9 @@
 import Banner from "@/components/Banner";
+import FeaturedProducts from "@/components/FeaturedProducts";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
 
-export default function Home() {
+export default function Home({ productData }) {
   return (
     <>
       <Head>
@@ -12,6 +13,18 @@ export default function Home() {
       </Head>
       <Navbar />
       <Banner />
+      <FeaturedProducts productData={productData} />
     </>
   );
 }
+
+// Data Fetching by getStaticProps() function
+export const getStaticProps = async () => {
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+  const data = await res.json();
+  return {
+    props: {
+      productData: data,
+    },
+  };
+};
