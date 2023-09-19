@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 import Head from "next/head";
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
         <meta name="description" content="This is PC Builder Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <h1>Welcome to Next JS</h1>
+      <Navbar />
     </>
   );
 }
