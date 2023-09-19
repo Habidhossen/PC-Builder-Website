@@ -5,6 +5,22 @@ const Navbar = () => {
   // declare state for handling navigation bar
   const [state, setState] = useState(false);
 
+  // declare state for handling navigation bar dropdown
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+  // handle dropdown open and close
+  let timeoutId;
+
+  const openDropdown = () => {
+    clearTimeout(timeoutId);
+    setDropdownOpen(true);
+  };
+  const closeDropdown = () => {
+    timeoutId = setTimeout(() => {
+      setDropdownOpen(false);
+    }, 300); // Adjust the delay as needed
+  };
+
   return (
     <nav className="bg-white border-b w-full md:static md:text-sm md:border-none">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
@@ -56,12 +72,18 @@ const Navbar = () => {
         >
           <ul className="justify-end items-center space-y-6 md:flex md:space-x-6 md:space-y-0">
             {/* dropdown */}
-            <div className="relative group">
+            <div
+              className="relative group z-10"
+              onMouseEnter={openDropdown}
+              onMouseLeave={closeDropdown}
+            >
               <button className="hover:text-blue-500 p-2 rounded flex items-center justify-between gap-2">
                 <span>Categories</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-5 h-5"
+                  className={`w-5 h-5 transition-transform transform ${
+                    isDropdownOpen ? "rotate-180" : "rotate-0"
+                  }`}
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -74,49 +96,65 @@ const Navbar = () => {
                   />
                 </svg>
               </button>
-              <ul className="hidden w-36 space-y-4 px-3 py-2 absolute top-full left-0 mt-1 bg-white border rounded-lg shadow-md group-hover:block">
+              <ul
+                className={`${
+                  isDropdownOpen ? "block" : "hidden"
+                } w-36 space-y-4 px-3 py-2 absolute top-full left-0 mt-1 bg-white border rounded-lg shadow-md`}
+              >
                 <li>
-                  <Link href="/" className="hover:text-blue-500">
+                  <Link href="/category/cpu" className="hover:text-blue-500">
                     CPU / Processor
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" className="hover:text-blue-500">
+                  <Link
+                    href="/category/motherboard"
+                    className="hover:text-blue-500"
+                  >
                     Motherboard
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" className="hover:text-blue-500">
+                  <Link href="/category/ram" className="hover:text-blue-500">
                     RAM
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" className="hover:text-blue-500">
+                  <Link href="/category/psu" className="hover:text-blue-500">
                     Power Supply Unit
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" className="hover:text-blue-500">
+                  <Link
+                    href="/category/storage"
+                    className="hover:text-blue-500"
+                  >
                     Storage Device
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" className="hover:text-blue-500">
+                  <Link
+                    href="/category/monitor"
+                    className="hover:text-blue-500"
+                  >
                     Monitor
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" className="hover:text-blue-500">
+                  <Link href="/category/gpu" className="hover:text-blue-500">
                     GPU
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" className="hover:text-blue-500">
+                  <Link href="/category/mouse" className="hover:text-blue-500">
                     Mouse
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" className="hover:text-blue-500">
+                  <Link
+                    href="/category/keyboard"
+                    className="hover:text-blue-500"
+                  >
                     Keyboard
                   </Link>
                 </li>
