@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 const ProductCard = ({ product }) => {
-  console.log(product);
   const {
     _id,
     productName,

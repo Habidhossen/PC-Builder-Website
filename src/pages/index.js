@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import FeaturedCategories from "@/components/FeaturedCategories";
 import FeaturedProducts from "@/components/FeaturedProducts";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
@@ -14,6 +15,7 @@ export default function Home({ productData }) {
       <Navbar />
       <Banner />
       <FeaturedProducts productData={productData} />
+      <FeaturedCategories productData={productData} />
     </>
   );
 }

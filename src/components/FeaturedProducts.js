@@ -7,7 +7,7 @@ const FeaturedProducts = ({ productData }) => {
   //   .slice(0, 6);
 
   return (
-    <section className="h-screen py-20 px-20">
+    <section className="py-20 px-20">
       <div className="text-center">
         <h1 className="text-3xl font-bold">Featured Product</h1>
         <p>

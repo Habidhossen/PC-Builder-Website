@@ -21,6 +21,19 @@ const Navbar = () => {
     }, 300); // Adjust the delay as needed
   };
 
+  // categories data
+  const categories = [
+    { name: "CPU / Processor", slug: "cpu" },
+    { name: "Motherboard", slug: "motherboard" },
+    { name: "RAM", slug: "ram" },
+    { name: "Power Supply Unit", slug: "psu" },
+    { name: "Storage Device", slug: "storage" },
+    { name: "Monitor", slug: "monitor" },
+    { name: "GPU", slug: "gpu" },
+    { name: "Mouse", slug: "mouse" },
+    { name: "Keyboard", slug: "keyboard" },
+  ];
+
   return (
     <nav className="bg-blue-50 border-b w-full md:static md:text-sm md:border-none">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
@@ -101,63 +114,16 @@ const Navbar = () => {
                   isDropdownOpen ? "block" : "hidden"
                 } w-36 space-y-4 px-3 py-2 absolute top-full left-0 mt-1 bg-white border rounded-lg shadow-md`}
               >
-                <li>
-                  <Link href="/category/cpu" className="hover:text-blue-500">
-                    CPU / Processor
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/category/motherboard"
-                    className="hover:text-blue-500"
-                  >
-                    Motherboard
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/category/ram" className="hover:text-blue-500">
-                    RAM
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/category/psu" className="hover:text-blue-500">
-                    Power Supply Unit
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/category/storage"
-                    className="hover:text-blue-500"
-                  >
-                    Storage Device
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/category/monitor"
-                    className="hover:text-blue-500"
-                  >
-                    Monitor
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/category/gpu" className="hover:text-blue-500">
-                    GPU
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/category/mouse" className="hover:text-blue-500">
-                    Mouse
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/category/keyboard"
-                    className="hover:text-blue-500"
-                  >
-                    Keyboard
-                  </Link>
-                </li>
+                {categories.map((category) => (
+                  <li key={category.slug}>
+                    <Link
+                      href={`/category/${category.slug}`}
+                      className="hover:text-blue-500"
+                    >
+                      {category.name}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
 
