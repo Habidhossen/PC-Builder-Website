@@ -1,862 +1,815 @@
-{
-  "data": [
-    {
-      "_id": "5f4e79299d808e7d0f05a73f",
-      "productName": "Intel Core i9-10900K",
-      "category": "CPU / Processor",
-      "status": "In Stock",
-      "price": 499.99,
-      "description": "High-performance 10-core, 20-thread processor for gaming and content creation.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Intel" },
-        { "key": "Core Count", "value": 10 },
-        { "key": "Threads", "value": 20 },
-        { "key": "Base Clock", "value": "3.7 GHz" },
-        { "key": "Max Turbo Clock", "value": "5.3 GHz" },
-        { "key": "Socket", "value": "LGA 1200" },
-        { "key": "TDP", "value": "125W" }
-      ],
-      "individualRating": 4.8,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e79299d808e7d0f05a740",
-      "productName": "AMD Ryzen 7 5800X",
-      "category": "CPU / Processor",
-      "status": "In Stock",
-      "price": 399.99,
-      "description": "8-core, 16-thread processor with impressive gaming performance.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "AMD" },
-        { "key": "Core Count", "value": 8 },
-        { "key": "Threads", "value": 16 },
-        { "key": "Base Clock", "value": "3.8 GHz" },
-        { "key": "Max Boost Clock", "value": "4.7 GHz" },
-        { "key": "Socket", "value": "AM4" },
-        { "key": "TDP", "value": "105W" }
-      ],
-      "individualRating": 4.9,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e79299d808e7d0f05a741",
-      "productName": "AMD Ryzen 5 5600X",
-      "category": "CPU / Processor",
-      "status": "In Stock",
-      "price": 299.99,
-      "description": "6-core, 12-thread processor with excellent value for gaming.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "AMD" },
-        { "key": "Core Count", "value": 6 },
-        { "key": "Threads", "value": 12 },
-        { "key": "Base Clock", "value": "3.7 GHz" },
-        { "key": "Max Boost Clock", "value": "4.6 GHz" },
-        { "key": "Socket", "value": "AM4" },
-        { "key": "TDP", "value": "65W" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e79299d808e7d0f05a742",
-      "productName": "Intel Core i7-10700K",
-      "category": "CPU / Processor",
-      "status": "In Stock",
-      "price": 369.99,
-      "description": "8-core, 16-thread processor with overclocking support.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Intel" },
-        { "key": "Core Count", "value": 8 },
-        { "key": "Threads", "value": 16 },
-        { "key": "Base Clock", "value": "3.8 GHz" },
-        { "key": "Max Turbo Clock", "value": "5.1 GHz" },
-        { "key": "Socket", "value": "LGA 1200" },
-        { "key": "TDP", "value": "125W" }
-      ],
-      "individualRating": 4.6,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e79299d808e7d0f05a743",
-      "productName": "AMD Ryzen 9 5950X",
-      "category": "CPU / Processor",
-      "status": "In Stock",
-      "price": 799.99,
-      "description": "16-core, 32-thread processor for extreme performance tasks.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "AMD" },
-        { "key": "Core Count", "value": 16 },
-        { "key": "Threads", "value": 32 },
-        { "key": "Base Clock", "value": "3.4 GHz" },
-        { "key": "Max Boost Clock", "value": "4.9 GHz" },
-        { "key": "Socket", "value": "AM4" },
-        { "key": "TDP", "value": "105W" }
-      ],
-      "individualRating": 4.9,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792a9d808e7d0f05a744",
-      "productName": "MSI MPG B550 Gaming Edge WiFi",
-      "category": "Motherboard",
-      "status": "In Stock",
-      "price": 189.99,
-      "description": "ATX gaming motherboard with Wi-Fi 6 and Mystic Light RGB.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "MSI" },
-        { "key": "Form Factor", "value": "ATX" },
-        { "key": "Wi-Fi", "value": "Wi-Fi 6" },
-        { "key": "RGB Lighting", "value": "Yes" },
-        { "key": "Socket", "value": "AM4" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792a9d808e7d0f05a745",
-      "productName": "ASUS ROG Strix B450-F Gaming",
-      "category": "Motherboard",
-      "status": "In Stock",
-      "price": 129.99,
-      "description": "ATX gaming motherboard with Aura Sync RGB lighting.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "ASUS" },
-        { "key": "Form Factor", "value": "ATX" },
-        { "key": "RGB Lighting", "value": "Yes" },
-        { "key": "Socket", "value": "AM4" }
-      ],
-      "individualRating": 4.6,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792a9d808e7d0f05a746",
-      "productName": "GIGABYTE Z590 AORUS Ultra",
-      "category": "Motherboard",
-      "status": "In Stock",
-      "price": 259.99,
-      "description": "ATX motherboard with support for Intel's 11th and 10th Gen processors.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "GIGABYTE" },
-        { "key": "Form Factor", "value": "ATX" },
-        { "key": "Socket", "value": "LGA 1200" }
-      ],
-      "individualRating": 4.8,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792a9d808e7d0f05a747",
-      "productName": "ASRock B450M Steel Legend",
-      "category": "Motherboard",
-      "status": "In Stock",
-      "price": 89.99,
-      "description": "Micro ATX motherboard with Steel Legend design and AMD AM4 support.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "ASRock" },
-        { "key": "Form Factor", "value": "Micro ATX" },
-        { "key": "Socket", "value": "AM4" }
-      ],
-      "individualRating": 4.5,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792a9d808e7d0f05a748",
-      "productName": "MSI MEG Z490 ACE",
-      "category": "Motherboard",
-      "status": "In Stock",
-      "price": 349.99,
-      "description": "ATX motherboard with high-end features and support for Intel 10th Gen processors.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "MSI" },
-        { "key": "Form Factor", "value": "ATX" },
-        { "key": "Socket", "value": "LGA 1200" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792b9d808e7d0f05a749",
-      "productName": "Corsair Vengeance LPX 16GB DDR4",
-      "category": "RAM",
-      "status": "In Stock",
-      "price": 79.99,
-      "description": "16GB DDR4 RAM kit for high-performance gaming and multitasking.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Corsair" },
-        { "key": "Capacity", "value": "16GB (2 x 8GB)" },
-        { "key": "Type", "value": "DDR4" },
-        { "key": "Speed", "value": "3200 MHz" },
-        { "key": "CAS Latency", "value": "16" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792b9d808e7d0f05a74a",
-      "productName": "G.SKILL Trident Z RGB 32GB DDR4",
-      "category": "RAM",
-      "status": "In Stock",
-      "price": 149.99,
-      "description": "32GB DDR4 RAM kit with RGB lighting for gaming enthusiasts.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "G.SKILL" },
-        { "key": "Capacity", "value": "32GB (2 x 16GB)" },
-        { "key": "Type", "value": "DDR4" },
-        { "key": "Speed", "value": "3600 MHz" },
-        { "key": "CAS Latency", "value": "18" }
-      ],
-      "individualRating": 4.8,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792b9d808e7d0f05a74b",
-      "productName": "Crucial Ballistix 8GB DDR4",
-      "category": "RAM",
-      "status": "In Stock",
-      "price": 49.99,
-      "description": "8GB DDR4 RAM module designed for gaming and performance.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Crucial" },
-        { "key": "Capacity", "value": "8GB" },
-        { "key": "Type", "value": "DDR4" },
-        { "key": "Speed", "value": "3000 MHz" },
-        { "key": "CAS Latency", "value": "15" }
-      ],
-      "individualRating": 4.6,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792b9d808e7d0f05a74c",
-      "productName": "HyperX Fury 16GB DDR4",
-      "category": "RAM",
-      "status": "In Stock",
-      "price": 89.99,
-      "description": "16GB DDR4 RAM kit for gaming and performance computing.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "HyperX" },
-        { "key": "Capacity", "value": "16GB (2 x 8GB)" },
-        { "key": "Type", "value": "DDR4" },
-        { "key": "Speed", "value": "3200 MHz" },
-        { "key": "CAS Latency", "value": "16" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792b9d808e7d0f05a74d",
-      "productName": "Corsair Dominator Platinum RGB 64GB DDR4",
-      "category": "RAM",
-      "status": "In Stock",
-      "price": 299.99,
-      "description": "High-capacity 64GB DDR4 RAM kit with RGB lighting for extreme performance.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Corsair" },
-        { "key": "Capacity", "value": "64GB (4 x 16GB)" },
-        { "key": "Type", "value": "DDR4" },
-        { "key": "Speed", "value": "3600 MHz" },
-        { "key": "CAS Latency", "value": "18" }
-      ],
-      "individualRating": 4.9,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792c9d808e7d0f05a74e",
-      "productName": "EVGA 750 B5, 80 Plus Bronze 750W",
-      "category": "Power Supply Unit",
-      "status": "In Stock",
-      "price": 89.99,
-      "description": "750W power supply unit with 80 Plus Bronze certification for reliable performance.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "EVGA" },
-        { "key": "Wattage", "value": "750W" },
-        { "key": "Certification", "value": "80 Plus Bronze" },
-        { "key": "Modular", "value": "Semi-Modular" },
-        { "key": "Efficiency", "value": "85%" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792c9d808e7d0f05a74f",
-      "productName": "Corsair RM850x, 80 Plus Gold 850W",
-      "category": "Power Supply Unit",
-      "status": "In Stock",
-      "price": 129.99,
-      "description": "850W power supply unit with 80 Plus Gold certification and fully modular design.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Corsair" },
-        { "key": "Wattage", "value": "850W" },
-        { "key": "Certification", "value": "80 Plus Gold" },
-        { "key": "Modular", "value": "Fully Modular" },
-        { "key": "Efficiency", "value": "90%" }
-      ],
-      "individualRating": 4.8,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792c9d808e7d0f05a750",
-      "productName": "Seasonic Focus GX-750, 80 Plus Gold 750W",
-      "category": "Power Supply Unit",
-      "status": "In Stock",
-      "price": 109.99,
-      "description": "750W power supply unit with 80 Plus Gold certification for stable power delivery.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Seasonic" },
-        { "key": "Wattage", "value": "750W" },
-        { "key": "Certification", "value": "80 Plus Gold" },
-        { "key": "Modular", "value": "Semi-Modular" },
-        { "key": "Efficiency", "value": "90%" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792c9d808e7d0f05a751",
-      "productName": "Cooler Master MWE 750 White 750W",
-      "category": "Power Supply Unit",
-      "status": "In Stock",
-      "price": 79.99,
-      "description": "750W power supply unit with white design and reliable performance.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Cooler Master" },
-        { "key": "Wattage", "value": "750W" },
-        { "key": "Certification", "value": "80 Plus" },
-        { "key": "Modular", "value": "Non-Modular" },
-        { "key": "Efficiency", "value": "85%" }
-      ],
-      "individualRating": 4.6,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792c9d808e7d0f05a752",
-      "productName": "Thermaltake Toughpower GX1 600W",
-      "category": "Power Supply Unit",
-      "status": "In Stock",
-      "price": 59.99,
-      "description": "600W power supply unit with reliable performance for budget-conscious builders.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Thermaltake" },
-        { "key": "Wattage", "value": "600W" },
-        { "key": "Certification", "value": "80 Plus Gold" },
-        { "key": "Modular", "value": "Non-Modular" },
-        { "key": "Efficiency", "value": "87%" }
-      ],
-      "individualRating": 4.5,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792d9d808e7d0f05a753",
-      "productName": "Samsung 970 EVO Plus 1TB NVMe SSD",
-      "category": "Storage Device",
-      "status": "In Stock",
-      "price": 149.99,
-      "description": "High-speed 1TB NVMe SSD for faster data access and storage performance.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Samsung" },
-        { "key": "Capacity", "value": "1TB" },
-        { "key": "Interface", "value": "NVMe PCIe M.2" },
-        { "key": "Read Speed", "value": "3500 MB/s" },
-        { "key": "Write Speed", "value": "3300 MB/s" }
-      ],
-      "individualRating": 4.8,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792d9d808e7d0f05a754",
-      "productName": "Crucial MX500 2TB SATA SSD",
-      "category": "Storage Device",
-      "status": "In Stock",
-      "price": 229.99,
-      "description": "High-capacity 2TB SATA SSD for storage and fast data access.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Crucial" },
-        { "key": "Capacity", "value": "2TB" },
-        { "key": "Interface", "value": "SATA 6Gb/s 2.5-Inch" },
-        { "key": "Read Speed", "value": "560 MB/s" },
-        { "key": "Write Speed", "value": "510 MB/s" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792d9d808e7d0f05a755",
-      "productName": "Western Digital WD Blue 4TB HDD",
-      "category": "Storage Device",
-      "status": "In Stock",
-      "price": 99.99,
-      "description": "High-capacity 4TB HDD for reliable storage and backup solutions.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Western Digital" },
-        { "key": "Capacity", "value": "4TB" },
-        { "key": "Interface", "value": "SATA 6Gb/s 3.5-Inch" },
-        { "key": "RPM", "value": "5400 RPM" },
-        { "key": "Cache", "value": "64MB" }
-      ],
-      "individualRating": 4.6,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792d9d808e7d0f05a756",
-      "productName": "ADATA SU760 512GB SATA SSD",
-      "category": "Storage Device",
-      "status": "In Stock",
-      "price": 69.99,
-      "description": "512GB SATA SSD for faster storage and system performance.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "ADATA" },
-        { "key": "Capacity", "value": "512GB" },
-        { "key": "Interface", "value": "SATA 6Gb/s 2.5-Inch" },
-        { "key": "Read Speed", "value": "550 MB/s" },
-        { "key": "Write Speed", "value": "520 MB/s" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792d9d808e7d0f05a757",
-      "productName": "Seagate Barracuda 8TB HDD",
-      "category": "Storage Device",
-      "status": "In Stock",
-      "price": 199.99,
-      "description": "High-capacity 8TB HDD for storage and backup with a fast data transfer rate.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Seagate" },
-        { "key": "Capacity", "value": "8TB" },
-        { "key": "Interface", "value": "SATA 6Gb/s 3.5-Inch" },
-        { "key": "RPM", "value": "5400 RPM" },
-        { "key": "Cache", "value": "256MB" }
-      ],
-      "individualRating": 4.8,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792e9d808e7d0f05a758",
-      "productName": "ASUS ROG Swift PG279QZ 27” 1440p",
-      "category": "Monitor",
-      "status": "In Stock",
-      "price": 499.99,
-      "description": "27-inch 1440p gaming monitor with IPS panel, G-Sync, and 165Hz refresh rate.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "ASUS" },
-        { "key": "Panel Type", "value": "IPS" },
-        { "key": "Resolution", "value": "2560x1440 (1440p)" },
-        { "key": "Refresh Rate", "value": "165Hz" },
-        { "key": "Response Time", "value": "1ms" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792e9d808e7d0f05a759",
-      "productName": "AOC CQ32G1 32” 1440p",
-      "category": "Monitor",
-      "status": "In Stock",
-      "price": 299.99,
-      "description": "32-inch 1440p gaming monitor with VA panel and 144Hz refresh rate.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "AOC" },
-        { "key": "Panel Type", "value": "VA" },
-        { "key": "Resolution", "value": "2560x1440 (1440p)" },
-        { "key": "Refresh Rate", "value": "144Hz" },
-        { "key": "Response Time", "value": "4ms" }
-      ],
-      "individualRating": 4.6,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792e9d808e7d0f05a75a",
-      "productName": "Dell S2719DGF 27” 1440p",
-      "category": "Monitor",
-      "status": "In Stock",
-      "price": 349.99,
-      "description": "27-inch 1440p gaming monitor with FreeSync and 155Hz refresh rate.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Dell" },
-        { "key": "Panel Type", "value": "TN" },
-        { "key": "Resolution", "value": "2560x1440 (1440p)" },
-        { "key": "Refresh Rate", "value": "155Hz" },
-        { "key": "Response Time", "value": "1ms" }
-      ],
-      "individualRating": 4.6,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792e9d808e7d0f05a75b",
-      "productName": "LG 27UL500-W 27” 4K",
-      "category": "Monitor",
-      "status": "In Stock",
-      "price": 399.99,
-      "description": "27-inch 4K monitor with IPS panel for vibrant colors and 60Hz refresh rate.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "LG" },
-        { "key": "Panel Type", "value": "IPS" },
-        { "key": "Resolution", "value": "3840x2160 (4K)" },
-        { "key": "Refresh Rate", "value": "60Hz" },
-        { "key": "Response Time", "value": "5ms" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792e9d808e7d0f05a75c",
-      "productName": "ViewSonic XG2402 24” 1080p",
-      "category": "Monitor",
-      "status": "In Stock",
-      "price": 199.99,
-      "description": "24-inch 1080p gaming monitor with TN panel and 144Hz refresh rate.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "ViewSonic" },
-        { "key": "Panel Type", "value": "TN" },
-        { "key": "Resolution", "value": "1920x1080 (1080p)" },
-        { "key": "Refresh Rate", "value": "144Hz" },
-        { "key": "Response Time", "value": "1ms" }
-      ],
-      "individualRating": 4.5,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792f9d808e7d0f05a75d",
-      "productName": "NVIDIA GeForce RTX 3080",
-      "category": "GPU",
-      "status": "In Stock",
-      "price": 699.99,
-      "description": "High-performance gaming GPU with ray tracing and DLSS support.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "NVIDIA" },
-        { "key": "Graphics Chip", "value": "GeForce RTX 3080" },
-        { "key": "VRAM", "value": "10GB GDDR6X" },
-        { "key": "CUDA Cores", "value": "8704" },
-        { "key": "Ray Tracing", "value": "Yes" }
-      ],
-      "individualRating": 4.9,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792f9d808e7d0f05a75e",
-      "productName": "AMD Radeon RX 6800 XT",
-      "category": "GPU",
-      "status": "In Stock",
-      "price": 649.99,
-      "description": "High-performance gaming GPU with ray tracing support from AMD.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "AMD" },
-        { "key": "Graphics Chip", "value": "Radeon RX 6800 XT" },
-        { "key": "VRAM", "value": "16GB GDDR6" },
-        { "key": "Stream Processors", "value": "4608" },
-        { "key": "Ray Tracing", "value": "Yes" }
-      ],
-      "individualRating": 4.8,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792f9d808e7d0f05a75f",
-      "productName": "MSI GeForce GTX 1660 Super",
-      "category": "GPU",
-      "status": "In Stock",
-      "price": 269.99,
-      "description": "Mid-range gaming GPU with 6GB GDDR5 memory and Turing architecture.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "MSI" },
-        { "key": "Graphics Chip", "value": "GeForce GTX 1660 Super" },
-        { "key": "VRAM", "value": "6GB GDDR5" },
-        { "key": "CUDA Cores", "value": "1408" },
-        { "key": "Ray Tracing", "value": "No" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792f9d808e7d0f05a760",
-      "productName": "EVGA GeForce RTX 3060 Ti",
-      "category": "GPU",
-      "status": "In Stock",
-      "price": 399.99,
-      "description": "Mid-range gaming GPU with ray tracing and DLSS support from EVGA.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "EVGA" },
-        { "key": "Graphics Chip", "value": "GeForce RTX 3060 Ti" },
-        { "key": "VRAM", "value": "8GB GDDR6" },
-        { "key": "CUDA Cores", "value": "4864" },
-        { "key": "Ray Tracing", "value": "Yes" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e792f9d808e7d0f05a761",
-      "productName": "ASUS TUF Gaming GeForce GTX 1660",
-      "category": "GPU",
-      "status": "In Stock",
-      "price": 249.99,
-      "description": "Mid-range gaming GPU with 6GB GDDR5 memory and durable TUF design.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "ASUS" },
-        { "key": "Graphics Chip", "value": "GeForce GTX 1660" },
-        { "key": "VRAM", "value": "6GB GDDR5" },
-        { "key": "CUDA Cores", "value": "1408" },
-        { "key": "Ray Tracing", "value": "No" }
-      ],
-      "individualRating": 4.6,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e79309d808e7d0f05a762",
-      "productName": "Logitech G Pro Wireless Gaming Mouse",
-      "category": "Mouse",
-      "status": "In Stock",
-      "price": 149.99,
-      "description": "High-performance wireless gaming mouse with customizable buttons and HERO sensor.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Logitech" },
-        { "key": "Connectivity", "value": "Wireless" },
-        { "key": "Sensor", "value": "HERO" },
-        { "key": "DPI Range", "value": "100 - 16,000" },
-        { "key": "Buttons", "value": "6" }
-      ],
-      "individualRating": 4.8,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e79309d808e7d0f05a763",
-      "productName": "Razer DeathAdder Elite Gaming Mouse",
-      "category": "Mouse",
-      "status": "In Stock",
-      "price": 69.99,
-      "description": "High-precision gaming mouse with customizable lighting and 16,000 DPI optical sensor.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Razer" },
-        { "key": "Connectivity", "value": "Wired" },
-        { "key": "Sensor", "value": "Optical" },
-        { "key": "DPI Range", "value": "16,000" },
-        { "key": "Buttons", "value": "7" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e79309d808e7d0f05a764",
-      "productName": "Corsair Dark Core RGB/SE Wired/Wireless Gaming Mouse",
-      "category": "Mouse",
-      "status": "In Stock",
-      "price": 89.99,
-      "description": "Versatile gaming mouse with customizable lighting, wired and wireless options, and 16,000 DPI optical sensor.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Corsair" },
-        { "key": "Connectivity", "value": "Wired/Wireless" },
-        { "key": "Sensor", "value": "Optical" },
-        { "key": "DPI Range", "value": "16,000" },
-        { "key": "Buttons", "value": "9" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e79309d808e7d0f05a765",
-      "productName": "SteelSeries Rival 600 Gaming Mouse",
-      "category": "Mouse",
-      "status": "In Stock",
-      "price": 79.99,
-      "description": "Dual-sensor gaming mouse with customizable weight, split-trigger buttons, and 12,000 CPI optical sensor.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "SteelSeries" },
-        { "key": "Connectivity", "value": "Wired" },
-        { "key": "Sensor", "value": "Optical" },
-        { "key": "CPI Range", "value": "12,000" },
-        { "key": "Buttons", "value": "7" }
-      ],
-      "individualRating": 4.6,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e79309d808e7d0f05a766",
-      "productName": "Logitech MX Master 3 Wireless Mouse",
-      "category": "Mouse",
-      "status": "In Stock",
-      "price": 99.99,
-      "description": "High-precision wireless mouse with customizable buttons and Darkfield high-precision sensor.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Logitech" },
-        { "key": "Connectivity", "value": "Wireless" },
-        { "key": "Sensor", "value": "Darkfield" },
-        { "key": "DPI Range", "value": "400 - 4,000" },
-        { "key": "Buttons", "value": "7" }
-      ],
-      "individualRating": 4.8,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e79319d808e7d0f05a767",
-      "productName": "Logitech G Pro X Mechanical Gaming Keyboard",
-      "category": "Keyboard",
-      "status": "In Stock",
-      "price": 149.99,
-      "description": "Customizable mechanical gaming keyboard with swappable switches.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Logitech" },
-        { "key": "Switch Type", "value": "GX Blue" },
-        { "key": "RGB Lighting", "value": "Yes" },
-        { "key": "Hot-Swappable", "value": "Yes" },
-        { "key": "Layout", "value": "Tenkeyless (TKL)" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e79319d808e7d0f05a768",
-      "productName": "Corsair K95 RGB Platinum XT Mechanical Gaming Keyboard",
-      "category": "Keyboard",
-      "status": "In Stock",
-      "price": 199.99,
-      "description": "High-end mechanical gaming keyboard with customizable RGB lighting and dedicated media controls.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Corsair" },
-        { "key": "Switch Type", "value": "Cherry MX Brown" },
-        { "key": "RGB Lighting", "value": "Yes" },
-        { "key": "Hot-Swappable", "value": "No" },
-        { "key": "Layout", "value": "Full Size" }
-      ],
-      "individualRating": 4.8,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e79319d808e7d0f05a769",
-      "productName": "SteelSeries Apex Pro Mechanical Gaming Keyboard",
-      "category": "Keyboard",
-      "status": "In Stock",
-      "price": 219.99,
-      "description": "Highly customizable mechanical gaming keyboard with adjustable mechanical switches.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "SteelSeries" },
-        { "key": "Switch Type", "value": "OmniPoint Adjustable" },
-        { "key": "RGB Lighting", "value": "Yes" },
-        { "key": "Hot-Swappable", "value": "Yes" },
-        { "key": "Layout", "value": "Full Size" }
-      ],
-      "individualRating": 4.8,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e79319d808e7d0f05a76a",
-      "productName": "Razer Huntsman Elite Mechanical Gaming Keyboard",
-      "category": "Keyboard",
-      "status": "In Stock",
-      "price": 169.99,
-      "description": "Mechanical gaming keyboard with Razer's Opto-Mechanical switches and customizable RGB lighting.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Razer" },
-        { "key": "Switch Type", "value": "Opto-Mechanical" },
-        { "key": "RGB Lighting", "value": "Yes" },
-        { "key": "Hot-Swappable", "value": "No" },
-        { "key": "Layout", "value": "Full Size" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    },
-    {
-      "_id": "5f4e79319d808e7d0f05a76b",
-      "productName": "Ducky One 2 Mini Mechanical Gaming Keyboard",
-      "category": "Keyboard",
-      "status": "In Stock",
-      "price": 109.99,
-      "description": "Compact 60% mechanical gaming keyboard with customizable keycaps.",
-      "keyFeatures": [
-        { "key": "Brand", "value": "Ducky" },
-        { "key": "Switch Type", "value": "Cherry MX Red" },
-        { "key": "RGB Lighting", "value": "Yes" },
-        { "key": "Hot-Swappable", "value": "No" },
-        { "key": "Layout", "value": "60%" }
-      ],
-      "individualRating": 4.7,
-      "averageRating": null,
-      "reviews": [],
-      "imageUrl": "[URL]"
-    }
-  ]
-}
+[
+  {
+    "productName": "Intel Core i9-10900K",
+    "category": "CPU / Processor",
+    "status": "In Stock",
+    "price": 499.99,
+    "description": "High-performance 10-core, 20-thread processor for gaming and content creation.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Intel" },
+      { "key": "Core Count", "value": 10 },
+      { "key": "Threads", "value": 20 },
+      { "key": "Base Clock", "value": "3.7 GHz" },
+      { "key": "Max Turbo Clock", "value": "5.3 GHz" },
+      { "key": "Socket", "value": "LGA 1200" },
+      { "key": "TDP", "value": "125W" }
+    ],
+    "individualRating": 4.8,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "AMD Ryzen 7 5800X",
+    "category": "CPU / Processor",
+    "status": "In Stock",
+    "price": 399.99,
+    "description": "8-core, 16-thread processor with impressive gaming performance.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "AMD" },
+      { "key": "Core Count", "value": 8 },
+      { "key": "Threads", "value": 16 },
+      { "key": "Base Clock", "value": "3.8 GHz" },
+      { "key": "Max Boost Clock", "value": "4.7 GHz" },
+      { "key": "Socket", "value": "AM4" },
+      { "key": "TDP", "value": "105W" }
+    ],
+    "individualRating": 4.9,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "AMD Ryzen 5 5600X",
+    "category": "CPU / Processor",
+    "status": "In Stock",
+    "price": 299.99,
+    "description": "6-core, 12-thread processor with excellent value for gaming.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "AMD" },
+      { "key": "Core Count", "value": 6 },
+      { "key": "Threads", "value": 12 },
+      { "key": "Base Clock", "value": "3.7 GHz" },
+      { "key": "Max Boost Clock", "value": "4.6 GHz" },
+      { "key": "Socket", "value": "AM4" },
+      { "key": "TDP", "value": "65W" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Intel Core i7-10700K",
+    "category": "CPU / Processor",
+    "status": "In Stock",
+    "price": 369.99,
+    "description": "8-core, 16-thread processor with overclocking support.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Intel" },
+      { "key": "Core Count", "value": 8 },
+      { "key": "Threads", "value": 16 },
+      { "key": "Base Clock", "value": "3.8 GHz" },
+      { "key": "Max Turbo Clock", "value": "5.1 GHz" },
+      { "key": "Socket", "value": "LGA 1200" },
+      { "key": "TDP", "value": "125W" }
+    ],
+    "individualRating": 4.6,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "AMD Ryzen 9 5950X",
+    "category": "CPU / Processor",
+    "status": "In Stock",
+    "price": 799.99,
+    "description": "16-core, 32-thread processor for extreme performance tasks.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "AMD" },
+      { "key": "Core Count", "value": 16 },
+      { "key": "Threads", "value": 32 },
+      { "key": "Base Clock", "value": "3.4 GHz" },
+      { "key": "Max Boost Clock", "value": "4.9 GHz" },
+      { "key": "Socket", "value": "AM4" },
+      { "key": "TDP", "value": "105W" }
+    ],
+    "individualRating": 4.9,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "MSI MPG B550 Gaming Edge WiFi",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 189.99,
+    "description": "ATX gaming motherboard with Wi-Fi 6 and Mystic Light RGB.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "MSI" },
+      { "key": "Form Factor", "value": "ATX" },
+      { "key": "Wi-Fi", "value": "Wi-Fi 6" },
+      { "key": "RGB Lighting", "value": "Yes" },
+      { "key": "Socket", "value": "AM4" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "ASUS ROG Strix B450-F Gaming",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 129.99,
+    "description": "ATX gaming motherboard with Aura Sync RGB lighting.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "ASUS" },
+      { "key": "Form Factor", "value": "ATX" },
+      { "key": "RGB Lighting", "value": "Yes" },
+      { "key": "Socket", "value": "AM4" }
+    ],
+    "individualRating": 4.6,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "GIGABYTE Z590 AORUS Ultra",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 259.99,
+    "description": "ATX motherboard with support for Intel's 11th and 10th Gen processors.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "GIGABYTE" },
+      { "key": "Form Factor", "value": "ATX" },
+      { "key": "Socket", "value": "LGA 1200" }
+    ],
+    "individualRating": 4.8,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "ASRock B450M Steel Legend",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 89.99,
+    "description": "Micro ATX motherboard with Steel Legend design and AMD AM4 support.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "ASRock" },
+      { "key": "Form Factor", "value": "Micro ATX" },
+      { "key": "Socket", "value": "AM4" }
+    ],
+    "individualRating": 4.5,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "MSI MEG Z490 ACE",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 349.99,
+    "description": "ATX motherboard with high-end features and support for Intel 10th Gen processors.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "MSI" },
+      { "key": "Form Factor", "value": "ATX" },
+      { "key": "Socket", "value": "LGA 1200" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Corsair Vengeance LPX 16GB DDR4",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 79.99,
+    "description": "16GB DDR4 RAM kit for high-performance gaming and multitasking.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Corsair" },
+      { "key": "Capacity", "value": "16GB (2 x 8GB)" },
+      { "key": "Type", "value": "DDR4" },
+      { "key": "Speed", "value": "3200 MHz" },
+      { "key": "CAS Latency", "value": "16" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "G.SKILL Trident Z RGB 32GB DDR4",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 149.99,
+    "description": "32GB DDR4 RAM kit with RGB lighting for gaming enthusiasts.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "G.SKILL" },
+      { "key": "Capacity", "value": "32GB (2 x 16GB)" },
+      { "key": "Type", "value": "DDR4" },
+      { "key": "Speed", "value": "3600 MHz" },
+      { "key": "CAS Latency", "value": "18" }
+    ],
+    "individualRating": 4.8,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Crucial Ballistix 8GB DDR4",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 49.99,
+    "description": "8GB DDR4 RAM module designed for gaming and performance.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Crucial" },
+      { "key": "Capacity", "value": "8GB" },
+      { "key": "Type", "value": "DDR4" },
+      { "key": "Speed", "value": "3000 MHz" },
+      { "key": "CAS Latency", "value": "15" }
+    ],
+    "individualRating": 4.6,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "HyperX Fury 16GB DDR4",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 89.99,
+    "description": "16GB DDR4 RAM kit for gaming and performance computing.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "HyperX" },
+      { "key": "Capacity", "value": "16GB (2 x 8GB)" },
+      { "key": "Type", "value": "DDR4" },
+      { "key": "Speed", "value": "3200 MHz" },
+      { "key": "CAS Latency", "value": "16" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Corsair Dominator Platinum RGB 64GB DDR4",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 299.99,
+    "description": "High-capacity 64GB DDR4 RAM kit with RGB lighting for extreme performance.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Corsair" },
+      { "key": "Capacity", "value": "64GB (4 x 16GB)" },
+      { "key": "Type", "value": "DDR4" },
+      { "key": "Speed", "value": "3600 MHz" },
+      { "key": "CAS Latency", "value": "18" }
+    ],
+    "individualRating": 4.9,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "EVGA 750 B5, 80 Plus Bronze 750W",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 89.99,
+    "description": "750W power supply unit with 80 Plus Bronze certification for reliable performance.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "EVGA" },
+      { "key": "Wattage", "value": "750W" },
+      { "key": "Certification", "value": "80 Plus Bronze" },
+      { "key": "Modular", "value": "Semi-Modular" },
+      { "key": "Efficiency", "value": "85%" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Corsair RM850x, 80 Plus Gold 850W",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 129.99,
+    "description": "850W power supply unit with 80 Plus Gold certification and fully modular design.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Corsair" },
+      { "key": "Wattage", "value": "850W" },
+      { "key": "Certification", "value": "80 Plus Gold" },
+      { "key": "Modular", "value": "Fully Modular" },
+      { "key": "Efficiency", "value": "90%" }
+    ],
+    "individualRating": 4.8,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Seasonic Focus GX-750, 80 Plus Gold 750W",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 109.99,
+    "description": "750W power supply unit with 80 Plus Gold certification for stable power delivery.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Seasonic" },
+      { "key": "Wattage", "value": "750W" },
+      { "key": "Certification", "value": "80 Plus Gold" },
+      { "key": "Modular", "value": "Semi-Modular" },
+      { "key": "Efficiency", "value": "90%" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Cooler Master MWE 750 White 750W",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 79.99,
+    "description": "750W power supply unit with white design and reliable performance.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Cooler Master" },
+      { "key": "Wattage", "value": "750W" },
+      { "key": "Certification", "value": "80 Plus" },
+      { "key": "Modular", "value": "Non-Modular" },
+      { "key": "Efficiency", "value": "85%" }
+    ],
+    "individualRating": 4.6,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Thermaltake Toughpower GX1 600W",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 59.99,
+    "description": "600W power supply unit with reliable performance for budget-conscious builders.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Thermaltake" },
+      { "key": "Wattage", "value": "600W" },
+      { "key": "Certification", "value": "80 Plus Gold" },
+      { "key": "Modular", "value": "Non-Modular" },
+      { "key": "Efficiency", "value": "87%" }
+    ],
+    "individualRating": 4.5,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Samsung 970 EVO Plus 1TB NVMe SSD",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": 149.99,
+    "description": "High-speed 1TB NVMe SSD for faster data access and storage performance.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Samsung" },
+      { "key": "Capacity", "value": "1TB" },
+      { "key": "Interface", "value": "NVMe PCIe M.2" },
+      { "key": "Read Speed", "value": "3500 MB/s" },
+      { "key": "Write Speed", "value": "3300 MB/s" }
+    ],
+    "individualRating": 4.8,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Crucial MX500 2TB SATA SSD",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": 229.99,
+    "description": "High-capacity 2TB SATA SSD for storage and fast data access.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Crucial" },
+      { "key": "Capacity", "value": "2TB" },
+      { "key": "Interface", "value": "SATA 6Gb/s 2.5-Inch" },
+      { "key": "Read Speed", "value": "560 MB/s" },
+      { "key": "Write Speed", "value": "510 MB/s" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Western Digital WD Blue 4TB HDD",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": 99.99,
+    "description": "High-capacity 4TB HDD for reliable storage and backup solutions.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Western Digital" },
+      { "key": "Capacity", "value": "4TB" },
+      { "key": "Interface", "value": "SATA 6Gb/s 3.5-Inch" },
+      { "key": "RPM", "value": "5400 RPM" },
+      { "key": "Cache", "value": "64MB" }
+    ],
+    "individualRating": 4.6,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "ADATA SU760 512GB SATA SSD",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": 69.99,
+    "description": "512GB SATA SSD for faster storage and system performance.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "ADATA" },
+      { "key": "Capacity", "value": "512GB" },
+      { "key": "Interface", "value": "SATA 6Gb/s 2.5-Inch" },
+      { "key": "Read Speed", "value": "550 MB/s" },
+      { "key": "Write Speed", "value": "520 MB/s" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Seagate Barracuda 8TB HDD",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": 199.99,
+    "description": "High-capacity 8TB HDD for storage and backup with a fast data transfer rate.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Seagate" },
+      { "key": "Capacity", "value": "8TB" },
+      { "key": "Interface", "value": "SATA 6Gb/s 3.5-Inch" },
+      { "key": "RPM", "value": "5400 RPM" },
+      { "key": "Cache", "value": "256MB" }
+    ],
+    "individualRating": 4.8,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "ASUS ROG Swift PG279QZ 27” 1440p",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 499.99,
+    "description": "27-inch 1440p gaming monitor with IPS panel, G-Sync, and 165Hz refresh rate.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "ASUS" },
+      { "key": "Panel Type", "value": "IPS" },
+      { "key": "Resolution", "value": "2560x1440 (1440p)" },
+      { "key": "Refresh Rate", "value": "165Hz" },
+      { "key": "Response Time", "value": "1ms" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "AOC CQ32G1 32” 1440p",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 299.99,
+    "description": "32-inch 1440p gaming monitor with VA panel and 144Hz refresh rate.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "AOC" },
+      { "key": "Panel Type", "value": "VA" },
+      { "key": "Resolution", "value": "2560x1440 (1440p)" },
+      { "key": "Refresh Rate", "value": "144Hz" },
+      { "key": "Response Time", "value": "4ms" }
+    ],
+    "individualRating": 4.6,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Dell S2719DGF 27” 1440p",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 349.99,
+    "description": "27-inch 1440p gaming monitor with FreeSync and 155Hz refresh rate.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Dell" },
+      { "key": "Panel Type", "value": "TN" },
+      { "key": "Resolution", "value": "2560x1440 (1440p)" },
+      { "key": "Refresh Rate", "value": "155Hz" },
+      { "key": "Response Time", "value": "1ms" }
+    ],
+    "individualRating": 4.6,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "LG 27UL500-W 27” 4K",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 399.99,
+    "description": "27-inch 4K monitor with IPS panel for vibrant colors and 60Hz refresh rate.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "LG" },
+      { "key": "Panel Type", "value": "IPS" },
+      { "key": "Resolution", "value": "3840x2160 (4K)" },
+      { "key": "Refresh Rate", "value": "60Hz" },
+      { "key": "Response Time", "value": "5ms" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "ViewSonic XG2402 24” 1080p",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 199.99,
+    "description": "24-inch 1080p gaming monitor with TN panel and 144Hz refresh rate.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "ViewSonic" },
+      { "key": "Panel Type", "value": "TN" },
+      { "key": "Resolution", "value": "1920x1080 (1080p)" },
+      { "key": "Refresh Rate", "value": "144Hz" },
+      { "key": "Response Time", "value": "1ms" }
+    ],
+    "individualRating": 4.5,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "NVIDIA GeForce RTX 3080",
+    "category": "GPU",
+    "status": "In Stock",
+    "price": 699.99,
+    "description": "High-performance gaming GPU with ray tracing and DLSS support.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "NVIDIA" },
+      { "key": "Graphics Chip", "value": "GeForce RTX 3080" },
+      { "key": "VRAM", "value": "10GB GDDR6X" },
+      { "key": "CUDA Cores", "value": "8704" },
+      { "key": "Ray Tracing", "value": "Yes" }
+    ],
+    "individualRating": 4.9,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "AMD Radeon RX 6800 XT",
+    "category": "GPU",
+    "status": "In Stock",
+    "price": 649.99,
+    "description": "High-performance gaming GPU with ray tracing support from AMD.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "AMD" },
+      { "key": "Graphics Chip", "value": "Radeon RX 6800 XT" },
+      { "key": "VRAM", "value": "16GB GDDR6" },
+      { "key": "Stream Processors", "value": "4608" },
+      { "key": "Ray Tracing", "value": "Yes" }
+    ],
+    "individualRating": 4.8,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "MSI GeForce GTX 1660 Super",
+    "category": "GPU",
+    "status": "In Stock",
+    "price": 269.99,
+    "description": "Mid-range gaming GPU with 6GB GDDR5 memory and Turing architecture.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "MSI" },
+      { "key": "Graphics Chip", "value": "GeForce GTX 1660 Super" },
+      { "key": "VRAM", "value": "6GB GDDR5" },
+      { "key": "CUDA Cores", "value": "1408" },
+      { "key": "Ray Tracing", "value": "No" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "EVGA GeForce RTX 3060 Ti",
+    "category": "GPU",
+    "status": "In Stock",
+    "price": 399.99,
+    "description": "Mid-range gaming GPU with ray tracing and DLSS support from EVGA.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "EVGA" },
+      { "key": "Graphics Chip", "value": "GeForce RTX 3060 Ti" },
+      { "key": "VRAM", "value": "8GB GDDR6" },
+      { "key": "CUDA Cores", "value": "4864" },
+      { "key": "Ray Tracing", "value": "Yes" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "ASUS TUF Gaming GeForce GTX 1660",
+    "category": "GPU",
+    "status": "In Stock",
+    "price": 249.99,
+    "description": "Mid-range gaming GPU with 6GB GDDR5 memory and durable TUF design.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "ASUS" },
+      { "key": "Graphics Chip", "value": "GeForce GTX 1660" },
+      { "key": "VRAM", "value": "6GB GDDR5" },
+      { "key": "CUDA Cores", "value": "1408" },
+      { "key": "Ray Tracing", "value": "No" }
+    ],
+    "individualRating": 4.6,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Logitech G Pro Wireless Gaming Mouse",
+    "category": "Mouse",
+    "status": "In Stock",
+    "price": 149.99,
+    "description": "High-performance wireless gaming mouse with customizable buttons and HERO sensor.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Logitech" },
+      { "key": "Connectivity", "value": "Wireless" },
+      { "key": "Sensor", "value": "HERO" },
+      { "key": "DPI Range", "value": "100 - 16,000" },
+      { "key": "Buttons", "value": "6" }
+    ],
+    "individualRating": 4.8,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Razer DeathAdder Elite Gaming Mouse",
+    "category": "Mouse",
+    "status": "In Stock",
+    "price": 69.99,
+    "description": "High-precision gaming mouse with customizable lighting and 16,000 DPI optical sensor.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Razer" },
+      { "key": "Connectivity", "value": "Wired" },
+      { "key": "Sensor", "value": "Optical" },
+      { "key": "DPI Range", "value": "16,000" },
+      { "key": "Buttons", "value": "7" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Corsair Dark Core RGB/SE Wired/Wireless Gaming Mouse",
+    "category": "Mouse",
+    "status": "In Stock",
+    "price": 89.99,
+    "description": "Versatile gaming mouse with customizable lighting, wired and wireless options, and 16,000 DPI optical sensor.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Corsair" },
+      { "key": "Connectivity", "value": "Wired/Wireless" },
+      { "key": "Sensor", "value": "Optical" },
+      { "key": "DPI Range", "value": "16,000" },
+      { "key": "Buttons", "value": "9" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "SteelSeries Rival 600 Gaming Mouse",
+    "category": "Mouse",
+    "status": "In Stock",
+    "price": 79.99,
+    "description": "Dual-sensor gaming mouse with customizable weight, split-trigger buttons, and 12,000 CPI optical sensor.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "SteelSeries" },
+      { "key": "Connectivity", "value": "Wired" },
+      { "key": "Sensor", "value": "Optical" },
+      { "key": "CPI Range", "value": "12,000" },
+      { "key": "Buttons", "value": "7" }
+    ],
+    "individualRating": 4.6,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Logitech MX Master 3 Wireless Mouse",
+    "category": "Mouse",
+    "status": "In Stock",
+    "price": 99.99,
+    "description": "High-precision wireless mouse with customizable buttons and Darkfield high-precision sensor.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Logitech" },
+      { "key": "Connectivity", "value": "Wireless" },
+      { "key": "Sensor", "value": "Darkfield" },
+      { "key": "DPI Range", "value": "400 - 4,000" },
+      { "key": "Buttons", "value": "7" }
+    ],
+    "individualRating": 4.8,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Logitech G Pro X Mechanical Gaming Keyboard",
+    "category": "Keyboard",
+    "status": "In Stock",
+    "price": 149.99,
+    "description": "Customizable mechanical gaming keyboard with swappable switches.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Logitech" },
+      { "key": "Switch Type", "value": "GX Blue" },
+      { "key": "RGB Lighting", "value": "Yes" },
+      { "key": "Hot-Swappable", "value": "Yes" },
+      { "key": "Layout", "value": "Tenkeyless (TKL)" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Corsair K95 RGB Platinum XT Mechanical Gaming Keyboard",
+    "category": "Keyboard",
+    "status": "In Stock",
+    "price": 199.99,
+    "description": "High-end mechanical gaming keyboard with customizable RGB lighting and dedicated media controls.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Corsair" },
+      { "key": "Switch Type", "value": "Cherry MX Brown" },
+      { "key": "RGB Lighting", "value": "Yes" },
+      { "key": "Hot-Swappable", "value": "No" },
+      { "key": "Layout", "value": "Full Size" }
+    ],
+    "individualRating": 4.8,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "SteelSeries Apex Pro Mechanical Gaming Keyboard",
+    "category": "Keyboard",
+    "status": "In Stock",
+    "price": 219.99,
+    "description": "Highly customizable mechanical gaming keyboard with adjustable mechanical switches.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "SteelSeries" },
+      { "key": "Switch Type", "value": "OmniPoint Adjustable" },
+      { "key": "RGB Lighting", "value": "Yes" },
+      { "key": "Hot-Swappable", "value": "Yes" },
+      { "key": "Layout", "value": "Full Size" }
+    ],
+    "individualRating": 4.8,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Razer Huntsman Elite Mechanical Gaming Keyboard",
+    "category": "Keyboard",
+    "status": "In Stock",
+    "price": 169.99,
+    "description": "Mechanical gaming keyboard with Razer's Opto-Mechanical switches and customizable RGB lighting.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Razer" },
+      { "key": "Switch Type", "value": "Opto-Mechanical" },
+      { "key": "RGB Lighting", "value": "Yes" },
+      { "key": "Hot-Swappable", "value": "No" },
+      { "key": "Layout", "value": "Full Size" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  },
+  {
+    "productName": "Ducky One 2 Mini Mechanical Gaming Keyboard",
+    "category": "Keyboard",
+    "status": "In Stock",
+    "price": 109.99,
+    "description": "Compact 60% mechanical gaming keyboard with customizable keycaps.",
+    "keyFeatures": [
+      { "key": "Brand", "value": "Ducky" },
+      { "key": "Switch Type", "value": "Cherry MX Red" },
+      { "key": "RGB Lighting", "value": "Yes" },
+      { "key": "Hot-Swappable", "value": "No" },
+      { "key": "Layout", "value": "60%" }
+    ],
+    "individualRating": 4.7,
+    "averageRating": null,
+    "reviews": [],
+    "imageUrl": "[URL]"
+  }
+]

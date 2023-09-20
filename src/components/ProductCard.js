@@ -1,22 +1,21 @@
 import Link from "next/link";
 
-const ProductCard = () => {
-  // Dummy data for the PC component card
-  const dummyData = {
-    imageSrc: "/dummy-image.jpg",
-    productName: "Sample Product",
-    category: "CPU / Processor",
-    price: 299.99,
-    inStock: true,
-    rating: 4.5,
-  };
-
-  const { imageSrc, productName, category, price, inStock, rating } = dummyData;
+const ProductCard = ({ product }) => {
+  console.log(product);
+  const {
+    _id,
+    productName,
+    category,
+    status,
+    price,
+    imgUrl,
+    individualRating,
+  } = product;
 
   return (
     <div className="max-w-md bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transform hover:scale-105 transition duration-300">
       <img
-        src={imageSrc}
+        src={imgUrl}
         alt={productName}
         className="w-full h-56 object-cover"
       />
@@ -26,10 +25,10 @@ const ProductCard = () => {
         <p className="text-gray-700 text-2xl font-semibold mt-2">${price}</p>
         <p
           className={`text-${
-            inStock ? "green" : "red"
+            status ? "green" : "red"
           }-600 text-sm font-semibold mt-1`}
         >
-          {inStock ? "In Stock" : "Out of Stock"}
+          {status ? "In Stock" : "Out of Stock"}
         </p>
         <div className="flex items-center mt-2">
           <svg
@@ -46,12 +45,13 @@ const ProductCard = () => {
               d="M12 6v6m0 0v6m0-6h6m-6 0H6"
             />
           </svg>
-          <span className="text-gray-600 text-sm">{rating} Stars</span>
+          <span className="text-gray-600 text-sm">
+            {individualRating} Stars
+          </span>
         </div>
         <div className="mt-4">
           <Link
-            href="/product/[id]"
-            as={`/product/${productName.replace(/\s/g, "-")}`}
+            href={`/product/${_id}`}
             className="text-blue-500 hover:text-blue-700 hover:underline"
           >
             View Details
