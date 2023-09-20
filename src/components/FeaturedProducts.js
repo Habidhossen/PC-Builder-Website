@@ -1,7 +1,11 @@
 import ProductCard from "./ProductCard";
 
 const FeaturedProducts = ({ productData }) => {
-  console.log(productData);
+  // get random product
+  // const randomProducts = productData?.data
+  //   .sort(() => Math.random() - 0.5)
+  //   .slice(0, 6);
+
   return (
     <section className="h-screen py-20 px-20">
       <div className="text-center">
@@ -13,9 +17,9 @@ const FeaturedProducts = ({ productData }) => {
 
       {/* content */}
       <div className="grid grid-cols-3 gap-5">
-        {productData?.data.map((product) => (
-          <ProductCard key={product._id} product={product} />
-        ))}
+        {productData?.data
+          .map((product) => <ProductCard key={product._id} product={product} />)
+          .slice(0, 6)}
       </div>
     </section>
   );
