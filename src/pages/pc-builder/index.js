@@ -1,19 +1,27 @@
 import Head from "next/head";
 import Link from "next/link";
+import { useSelector } from "react-redux";
 
 const PcBuilderPage = () => {
   // categories data
   const categories = [
-    { _id: "1", name: "CPU / Processor", slug: "cpu" },
-    { _id: "2", name: "Motherboard", slug: "motherboard" },
-    { _id: "3", name: "RAM", slug: "ram" },
-    { _id: "4", name: "Power Supply Unit", slug: "psu" },
-    { _id: "5", name: "Storage Device", slug: "storage" },
-    { _id: "6", name: "Monitor", slug: "monitor" },
-    { _id: "7", name: "GPU", slug: "gpu" },
-    { _id: "8", name: "Mouse", slug: "mouse" },
-    { _id: "9", name: "Keyboard", slug: "keyboard" },
+    { name: "CPU / Processor", slug: "cpu" },
+    { name: "Motherboard", slug: "motherboard" },
+    { name: "RAM", slug: "ram" },
+    { name: "Power Supply Unit", slug: "psu" },
+    { name: "Storage Device", slug: "storage" },
+    { name: "Monitor", slug: "monitor" },
+    { name: "GPU", slug: "gpu" },
+    { name: "Mouse", slug: "mouse" },
+    { name: "Keyboard", slug: "keyboard" },
   ];
+
+  // Access the selected components from the Redux store
+  const selectedComponents = useSelector(
+    (state) => state.builder.selectedComponents
+  );
+
+  console.log(selectedComponents);
 
   return (
     <>
@@ -47,6 +55,13 @@ const PcBuilderPage = () => {
               </div>
             </div>
           ))}
+          <div>
+            {selectedComponents.map((component, index) => (
+              <div key={index}>
+                <h1>{component?.productName}</h1>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     </>

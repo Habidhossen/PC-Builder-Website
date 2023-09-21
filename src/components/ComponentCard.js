@@ -1,4 +1,6 @@
+import { addToBuilder } from "@/redux/features/builder/builderSlice";
 import { useRouter } from "next/router";
+import { useDispatch } from "react-redux";
 
 const ComponentCard = ({ product }) => {
   const {
@@ -14,7 +16,13 @@ const ComponentCard = ({ product }) => {
   // get router object from useRouter() hook
   const router = useRouter();
 
+  // redux dispatch method
+  const dispatch = useDispatch();
+
   const handleAddToBuilderBtn = () => {
+    // Dispatch the addToBuilder action with the selected component
+    dispatch(addToBuilder(product));
+
     // Redirect to the pc builder page
     router.push("/pc-builder");
   };
