@@ -1,3 +1,4 @@
+import MainLayout from "@/layouts/MainLayout";
 import Head from "next/head";
 import Link from "next/link";
 import { useSelector } from "react-redux";
@@ -81,3 +82,7 @@ const PcBuilderPage = () => {
 };
 
 export default PcBuilderPage;
+
+PcBuilderPage.getLayout = function getLayout(page) {
+  return <MainLayout>{page}</MainLayout>;
+};

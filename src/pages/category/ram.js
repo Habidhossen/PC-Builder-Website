@@ -1,4 +1,5 @@
 import ProductCard from "@/components/ProductCard";
+import MainLayout from "@/layouts/MainLayout";
 
 const RAMPage = ({ productData }) => {
   return (
@@ -21,6 +22,10 @@ const RAMPage = ({ productData }) => {
 };
 
 export default RAMPage;
+
+RAMPage.getLayout = function getLayout(page) {
+  return <MainLayout>{page}</MainLayout>;
+};
 
 // Data Fetching and Filtering by Category
 export const getStaticProps = async () => {

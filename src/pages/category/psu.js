@@ -1,4 +1,5 @@
 import ProductCard from "@/components/ProductCard";
+import MainLayout from "@/layouts/MainLayout";
 
 const PowerSupplyUnitPage = ({ productData }) => {
   return (
@@ -21,6 +22,10 @@ const PowerSupplyUnitPage = ({ productData }) => {
 };
 
 export default PowerSupplyUnitPage;
+
+PowerSupplyUnitPage.getLayout = function getLayout(page) {
+  return <MainLayout>{page}</MainLayout>;
+};
 
 // Data Fetching and Filtering by Category
 export const getStaticProps = async () => {

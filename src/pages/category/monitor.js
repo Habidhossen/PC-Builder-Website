@@ -1,4 +1,5 @@
 import ProductCard from "@/components/ProductCard";
+import MainLayout from "@/layouts/MainLayout";
 
 const MonitorPage = ({ productData }) => {
   return (
@@ -21,6 +22,10 @@ const MonitorPage = ({ productData }) => {
 };
 
 export default MonitorPage;
+
+MonitorPage.getLayout = function getLayout(page) {
+  return <MainLayout>{page}</MainLayout>;
+};
 
 // Data Fetching and Filtering by Category
 export const getStaticProps = async () => {

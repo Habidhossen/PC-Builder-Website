@@ -1,4 +1,5 @@
 import ProductCard from "@/components/ProductCard";
+import MainLayout from "@/layouts/MainLayout";
 
 const KeyboardPage = ({ productData }) => {
   return (
@@ -21,6 +22,10 @@ const KeyboardPage = ({ productData }) => {
 };
 
 export default KeyboardPage;
+
+KeyboardPage.getLayout = function getLayout(page) {
+  return <MainLayout>{page}</MainLayout>;
+};
 
 // Data Fetching and Filtering by Category
 export const getStaticProps = async () => {
