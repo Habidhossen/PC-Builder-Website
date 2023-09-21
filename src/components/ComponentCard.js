@@ -1,4 +1,5 @@
 import { addToBuilder } from "@/redux/features/builder/builderSlice";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import { useDispatch } from "react-redux";
 
@@ -28,14 +29,14 @@ const ComponentCard = ({ product }) => {
   };
 
   return (
-    <div className="max-w-md bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transform hover:scale-105 transition duration-300">
-      <img
+    <div className="bg-white rounded-xl">
+      <Image
         src={imgUrl}
         alt={productName}
         className="w-full h-56 object-cover"
       />
       <div className="p-4">
-        <h2 className="text-gray-800 text-xl font-semibold">{productName}</h2>
+        <h2 className="text-gray-800 text-lg font-semibold">{productName}</h2>
         <p className="text-gray-600 text-sm">{category}</p>
         <p className="text-gray-700 text-2xl font-semibold mt-2">${price}</p>
         <p
@@ -67,7 +68,7 @@ const ComponentCard = ({ product }) => {
         <div className="mt-4">
           <button
             onClick={handleAddToBuilderBtn}
-            className="bg-emerald-700 text-white p-2 rounded-lg"
+            className="w-full px-4 py-2 text-slate-50 text-sm  bg-slate-900 rounded-lg hover:bg-slate-800"
           >
             Add to Builder
           </button>

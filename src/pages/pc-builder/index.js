@@ -1,7 +1,9 @@
 import MainLayout from "@/layouts/MainLayout";
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 import { useSelector } from "react-redux";
+import processorIcon from "../../assets/images/processor.webp";
 
 const PcBuilderPage = () => {
   // categories data
@@ -78,7 +80,29 @@ const PcBuilderPage = () => {
                     .filter((component) => component.category === category.name)
                     .map((component, componentIndex) => (
                       <div key={componentIndex}>
-                        <h1>{component?.productName}</h1>
+                        <div className="bg-white flex items-center justify-between px-4 py-2">
+                          <div className="flex items-center gap-4">
+                            <Image
+                              src={processorIcon}
+                              alt={component?.productName}
+                              width={60}
+                              height={60}
+                            />
+                            <div>
+                              <h1 className="text-md font-semibold">
+                                {component?.productName}
+                              </h1>
+                              <p className="text-sm">
+                                {component?.description}
+                              </p>
+                            </div>
+                          </div>
+                          <div>
+                            <p className="text-lg font-semibold">
+                              ${component?.price}
+                            </p>
+                          </div>
+                        </div>
                       </div>
                     ))}
                 </div>
