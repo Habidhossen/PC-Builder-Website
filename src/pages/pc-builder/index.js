@@ -21,47 +21,59 @@ const PcBuilderPage = () => {
     (state) => state.builder.selectedComponents
   );
 
-  console.log(selectedComponents);
+  // Check if the "Complete Build" button should be disabled
+  const isButtonDisabled =
+    selectedComponents.length < 5 || selectedComponents.length > 6;
 
   return (
     <>
       <Head>
         <title>Build Your PC now</title>
       </Head>
+
       <section className="py-20 px-60">
         <div className="text-center">
           <h1 className="text-3xl font-bold">PC Builder Page</h1>
         </div>
 
+        <button
+          className="px-5 py-3 text-white duration-150 bg-indigo-600 rounded-full hover:bg-indigo-500 active:bg-indigo-700"
+          disabled={isButtonDisabled}
+        >
+          Complete Build
+        </button>
         {/* content */}
         <div className="space-y-5">
           {categories.map((category, index) => (
-            <div
-              className="bg-slate-100 flex items-center justify-between"
-              key={index}
-            >
-              <div className="p-4">
-                <h2 className="text-gray-800 text-xl font-semibold">
-                  {category.name}
-                </h2>
+            <div className="" key={index}>
+              <div className="bg-slate-100 flex items-center justify-between">
+                <div className="p-4">
+                  <h2 className="text-gray-800 text-xl font-semibold">
+                    {category.name}
+                  </h2>
+                </div>
+                <div>
+                  {/* Use the correct href attribute */}
+                  <Link href={`/pc-builder/components/${category.slug}`}>
+                    <button className="mt-4 bg-emerald-700 text-white p-2 rounded-lg">
+                      Choose
+                    </button>
+                  </Link>
+                </div>
               </div>
+
+              {/* render selected components */}
               <div>
-                <Link
-                  href={`pc-builder/components/${category.slug}`}
-                  className="mt-4 bg-emerald-700 text-white p-2 rounded-lg"
-                >
-                  Choose
-                </Link>
+                {selectedComponents
+                  .filter((component) => component.category === category.name)
+                  .map((component, componentIndex) => (
+                    <div key={componentIndex}>
+                      <h1>{component?.productName}</h1>
+                    </div>
+                  ))}
               </div>
             </div>
           ))}
-          <div>
-            {selectedComponents.map((component, index) => (
-              <div key={index}>
-                <h1>{component?.productName}</h1>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
     </>
