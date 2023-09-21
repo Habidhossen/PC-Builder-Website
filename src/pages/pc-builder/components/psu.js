@@ -23,7 +23,7 @@ const PowerSupplyUnitComp = ({ productData }) => {
 export default PowerSupplyUnitComp;
 
 // Data Fetching and Filtering by Category
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const res = await fetch(
     "https://pc-builder-server-mtgs.onrender.com/api/v1/product"
   );
