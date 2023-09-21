@@ -1,18 +1,27 @@
 import ProductCard from "@/components/ProductCard";
 import MainLayout from "@/layouts/MainLayout";
+import Link from "next/link";
 
 const KeyboardPage = ({ productData }) => {
   return (
-    <section className="py-20 px-20">
-      <div className="text-center">
-        <h1 className="text-3xl font-bold">Keyboard</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, nisi.
-        </p>
-      </div>
+    <section className="container mx-auto px-8 md:px-12 lg:px-20 py-12">
+      {/* Breadcrumb */}
+      <nav className="text-md">
+        <ol className="list-reset flex text-grey">
+          <li className="mr-2">
+            <Link href="/" className="text-blue-500 hover:underline">
+              Home
+            </Link>
+          </li>
+          <li className="mr-2">
+            <span>&gt;</span>
+          </li>
+          <li className="text-gray-600 font-semibold">Keyboard</li>
+        </ol>
+      </nav>
 
-      {/* content */}
-      <div className="grid grid-cols-3 gap-5">
+      {/* Content */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 py-12">
         {productData.map((product) => (
           <ProductCard key={product._id} product={product} />
         ))}

@@ -1,3 +1,5 @@
+import MainLayout from "@/layouts/MainLayout";
+
 const ProductDetailPage = ({ product }) => {
   const {
     productName,
@@ -93,6 +95,10 @@ const ProductDetailPage = ({ product }) => {
 };
 
 export default ProductDetailPage;
+
+ProductDetailPage.getLayout = function getLayout(page) {
+  return <MainLayout>{page}</MainLayout>;
+};
 
 // getStaticPaths() for get specific product ID
 export const getStaticPaths = async () => {

@@ -130,8 +130,8 @@ const Navbar = () => {
             {/* button */}
             <li>
               <Link
-                href="/pc-builder"
-                className="block py-3 px-4 font-medium text-center text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 active:shadow-none rounded-lg shadow md:inline"
+                href="pc-builder"
+                className="w-full px-6 py-3 mt-6 text-sm text-white duration-300 transform bg-slate-950 rounded-lg lg:w-auto hover:bg-slate-800"
               >
                 PC Builder
               </Link>

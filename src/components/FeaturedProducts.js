@@ -7,16 +7,14 @@ const FeaturedProducts = ({ productData }) => {
   //   .slice(0, 6);
 
   return (
-    <section className="py-20 px-20">
-      <div className="text-center">
-        <h1 className="text-3xl font-bold">Featured Product</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, nisi.
-        </p>
+    <section className="container mx-auto px-8 md:px-12 lg:px-20 py-12">
+      <div className="text-center mb-8">
+        <h1 className="text-3xl font-bold mb-2">Featured Products</h1>
+        <p>Check & Get Your Desired Product!</p>
       </div>
 
       {/* content */}
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {productData?.data
           .map((product) => <ProductCard key={product._id} product={product} />)
           .slice(0, 6)}

@@ -1,4 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
+import categoryImg from "../assets/images/category.webp";
 
 const FeaturedCategories = ({ productData }) => {
   // categories data
@@ -15,37 +17,33 @@ const FeaturedCategories = ({ productData }) => {
   ];
 
   return (
-    <section className="py-20 px-20">
-      <div className="text-center">
-        <h1 className="text-3xl font-bold">Featured Category</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, nisi.
-        </p>
+    <section className="container mx-auto px-8 md:px-12 lg:px-20 py-12">
+      <div className="text-center mb-8">
+        <h1 className="text-3xl font-bold mb-2">Featured Category</h1>
+        <p>Get Your Desired Product from Featured Category!</p>
       </div>
 
       {/* content */}
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-2">
         {categories
           .map((category, index) => (
-            <div
-              className="max-w-md bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transform hover:scale-105 transition duration-300"
+            <Link
+              href={`/category/${category.slug}`}
+              className="bg-white rounded-lg"
               key={index}
             >
-              <div className="p-4">
-                <h2 className="text-gray-800 text-xl font-semibold">
+              <div className="p-4 flex flex-col items-center gap-3">
+                <Image
+                  src={categoryImg}
+                  alt={category.name}
+                  width={70}
+                  height={70}
+                />
+                <h2 className="text-gray-800 text-md font-semibold">
                   {category.name}
                 </h2>
-
-                <div className="mt-4">
-                  <Link
-                    href={`/category/${category.slug}`}
-                    className="text-blue-500 hover:text-blue-700 hover:underline"
-                  >
-                    Explore category
-                  </Link>
-                </div>
               </div>
-            </div>
+            </Link>
           ))
           .slice(0, 6)}
       </div>

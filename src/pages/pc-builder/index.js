@@ -32,49 +32,59 @@ const PcBuilderPage = () => {
         <title>Build Your PC now</title>
       </Head>
 
-      <section className="py-20 px-60">
-        <div className="text-center">
-          <h1 className="text-3xl font-bold">PC Builder Page</h1>
-        </div>
-
-        <button
-          className="px-5 py-3 text-white duration-150 bg-indigo-600 rounded-full hover:bg-indigo-500 active:bg-indigo-700"
-          disabled={isButtonDisabled}
-        >
-          Complete Build
-        </button>
-        {/* content */}
-        <div className="space-y-5">
-          {categories.map((category, index) => (
-            <div className="" key={index}>
-              <div className="bg-slate-100 flex items-center justify-between">
-                <div className="p-4">
-                  <h2 className="text-gray-800 text-xl font-semibold">
-                    {category.name}
-                  </h2>
-                </div>
-                <div>
-                  {/* Use the correct href attribute */}
-                  <Link href={`/pc-builder/components/${category.slug}`}>
-                    <button className="mt-4 bg-emerald-700 text-white p-2 rounded-lg">
-                      Choose
-                    </button>
-                  </Link>
-                </div>
-              </div>
-
-              {/* render selected components */}
-              <div>
-                {selectedComponents
-                  .filter((component) => component.category === category.name)
-                  .map((component, componentIndex) => (
-                    <div key={componentIndex}>
-                      <h1>{component?.productName}</h1>
-                    </div>
-                  ))}
-              </div>
+      <section className="container mx-auto px-8 md:px-20 lg:px-60 py-12">
+        <div className="bg-white px-4 py-6 rounded-xl">
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <h1 className="text-2xl font-bold">PC Builder</h1>
+              <p>Select Your Components</p>
             </div>
-          ))}
+            <div>
+              <button
+                className="px-5 py-3 text-white duration-150 bg-indigo-600 rounded-full hover:bg-indigo-500 active:bg-indigo-700"
+                disabled={isButtonDisabled}
+              >
+                Complete Build
+              </button>
+            </div>
+          </div>
+
+          <hr />
+
+          {/* content */}
+          <div className="space-y-4 mt-4">
+            {categories.map((category, index) => (
+              <div className="" key={index}>
+                <div className="bg-gray-100 rounded-lg px-4 py-5 flex items-center justify-between">
+                  <div>
+                    <h2 className="text-gray-800 text-md font-semibold">
+                      {category.name}
+                    </h2>
+                  </div>
+                  <div>
+                    {/* Use the correct href attribute */}
+                    <Link
+                      href={`/pc-builder/components/${category.slug}`}
+                      className="px-4 py-2 text-slate-50 text-sm  bg-slate-900 rounded-lg hover:bg-slate-800"
+                    >
+                      Choose
+                    </Link>
+                  </div>
+                </div>
+
+                {/* render selected components */}
+                <div>
+                  {selectedComponents
+                    .filter((component) => component.category === category.name)
+                    .map((component, componentIndex) => (
+                      <div key={componentIndex}>
+                        <h1>{component?.productName}</h1>
+                      </div>
+                    ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     </>

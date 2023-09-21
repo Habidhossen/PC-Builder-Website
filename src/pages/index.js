@@ -1,10 +1,19 @@
 import Banner from "@/components/Banner";
 import FeaturedCategories from "@/components/FeaturedCategories";
-import FeaturedProducts from "@/components/FeaturedProducts";
+import Loader from "@/components/Loader";
 import MainLayout from "@/layouts/MainLayout";
+import dynamic from "next/dynamic";
 import Head from "next/head";
 
 export default function HomePage({ productData }) {
+  // add lazy loader
+  const DynamicFeaturedProducts = dynamic(
+    () => import("@/components/FeaturedProducts"),
+    {
+      loading: () => <Loader />,
+    }
+  );
+
   return (
     <>
       <Head>
@@ -13,7 +22,7 @@ export default function HomePage({ productData }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Banner />
-      <FeaturedProducts productData={productData} />
+      <DynamicFeaturedProducts productData={productData} />
       <FeaturedCategories productData={productData} />
     </>
   );
