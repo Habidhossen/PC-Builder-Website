@@ -1,6 +1,7 @@
 import { addToBuilder } from "@/redux/features/builder/builderSlice";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import toast from "react-hot-toast";
 import { useDispatch } from "react-redux";
 
 const ComponentCard = ({ product }) => {
@@ -26,6 +27,9 @@ const ComponentCard = ({ product }) => {
 
     // Redirect to the pc builder page
     router.push("/pc-builder");
+
+    // show toast
+    toast.success("Successfully added to builder!");
   };
 
   return (

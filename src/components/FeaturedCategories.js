@@ -17,10 +17,17 @@ const FeaturedCategories = ({ productData }) => {
   ];
 
   return (
-    <section className="container mx-auto px-8 md:px-12 lg:px-20 py-12">
-      <div className="text-center mb-8">
-        <h1 className="text-3xl font-bold mb-2">Featured Category</h1>
-        <p>Get Your Desired Product from Featured Category!</p>
+    <section className="container mx-auto px-8 md:px-12 lg:px-20 py-24">
+      <div className="text-center mb-12">
+        <h1 className="text-4xl font-bold mb-2">
+          Featured{" "}
+          <span className="text-transparent bg-gradient-to-r from-[#ff7d1e] to-[#fd40e5] bg-clip-text">
+            Category
+          </span>
+        </h1>
+        <p className="text-transparent bg-gradient-to-l from-[#ff7d1e] to-[#fd40e5] bg-clip-text text-lg font-medium">
+          Get Your Desired Product from Featured Category!{" "}
+        </p>
       </div>
 
       {/* content */}
@@ -29,7 +36,7 @@ const FeaturedCategories = ({ productData }) => {
           .map((category, index) => (
             <Link
               href={`/category/${category.slug}`}
-              className="bg-white rounded-lg"
+              className="bg-white rounded-lg hover:shadow-md"
               key={index}
             >
               <div className="p-4 flex flex-col items-center gap-3">
@@ -39,7 +46,7 @@ const FeaturedCategories = ({ productData }) => {
                   width={70}
                   height={70}
                 />
-                <h2 className="text-gray-800 text-md font-semibold">
+                <h2 className="text-gray-800 text-md font-semibold hover:underline">
                   {category.name}
                 </h2>
               </div>

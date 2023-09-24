@@ -15,7 +15,7 @@ const ProductCard = ({ product }) => {
   return (
     <Link
       href={`/product/${_id}`}
-      className="bg-white rounded-xl flex flex-col items-center"
+      className="bg-white  rounded-3xl flex flex-col items-center"
     >
       <Image src={imageUrl} alt={productName} width={300} height={300} />
       <div className="p-4">

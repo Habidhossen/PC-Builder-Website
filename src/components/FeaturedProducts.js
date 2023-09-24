@@ -8,13 +8,20 @@ const FeaturedProducts = ({ productData }) => {
 
   return (
     <section className="container mx-auto px-8 md:px-12 lg:px-20 py-12">
-      <div className="text-center mb-8">
-        <h1 className="text-3xl font-bold mb-2">Featured Products</h1>
-        <p>Check & Get Your Desired Product!</p>
+      <div className="text-center mb-12">
+        <h1 className="text-4xl font-bold mb-2">
+          Featured{" "}
+          <span className="text-transparent bg-gradient-to-r from-[#ff7d1e] to-[#fd40e5] bg-clip-text">
+            Products
+          </span>
+        </h1>
+        <p className="text-transparent bg-gradient-to-l from-[#ff7d1e] to-[#fd40e5] bg-clip-text text-lg font-medium">
+          Check & Get Your Desired Product!
+        </p>
       </div>
 
       {/* content */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {productData?.data
           .map((product) => <ProductCard key={product._id} product={product} />)
           .slice(0, 6)}
