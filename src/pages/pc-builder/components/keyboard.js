@@ -1,19 +1,15 @@
 import ComponentCard from "@/components/ComponentCard";
+import MainLayout from "@/layouts/MainLayout";
 import Link from "next/link";
 
 const KeyboardComp = ({ productData }) => {
   return (
-    <section className="container mx-auto px-8 md:px-20 lg:px-60 py-12">
-      <div className="text-center mb-8">
-        <h1 className="text-xl font-bold">Keyboard</h1>
-        <p className="text-sm">Select Your Components</p>
-      </div>
-
+    <section className="container mx-auto px-8 md:px-20 lg:px-44 py-24">
       {/* Breadcrumb */}
-      <nav className="text-sm mb-8">
+      <nav className="text-sm mb-6">
         <ol className="list-reset flex text-grey">
           <li className="mr-2">
-            <Link href="/" className="text-blue-500 hover:underline">
+            <Link href="/" className="text-black font-semibold hover:underline">
               Home
             </Link>
           </li>
@@ -21,19 +17,24 @@ const KeyboardComp = ({ productData }) => {
             <span>&gt;</span>
           </li>
           <li className="mr-2">
-            <Link href="/pc-builder" className="text-blue-500 hover:underline">
+            <Link
+              href="/pc-builder"
+              className="text-black font-semibold hover:underline"
+            >
               PC Builder
             </Link>
           </li>
           <li className="mr-2">
             <span>&gt;</span>
           </li>
-          <li className="text-gray-600 font-semibold">Keyboard</li>
+          <li className="text-transparent bg-gradient-to-r from-[#ff7d1e] to-[#fd40e5] bg-clip-text font-semibold">
+            Keyboard
+          </li>
         </ol>
       </nav>
 
       {/* content */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {productData.map((product) => (
           <ComponentCard key={product._id} product={product} />
         ))}
@@ -43,6 +44,10 @@ const KeyboardComp = ({ productData }) => {
 };
 
 export default KeyboardComp;
+
+KeyboardComp.getLayout = function getLayout(page) {
+  return <MainLayout>{page}</MainLayout>;
+};
 
 // Data Fetching and Filtering by Category
 export const getServerSideProps = async () => {

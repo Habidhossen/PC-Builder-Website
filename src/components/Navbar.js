@@ -133,7 +133,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/pc-builder"
-                className="w-full px-8 py-3 mt-6 text-sm font-semibold text-white duration-300 bg-gradient-to-r from-[#ff7d1e] to-[#fd40e5] hover:bg-gradient-to-l from-[#ff7d1e] to-[#fd40e5] rounded-lg lg:w-auto"
+                className="w-full px-8 py-3 mt-6 text-sm font-semibold text-white bg-gradient-to-r from-[#ff7d1e] to-[#fd40e5] hover:bg-gradient-to-l from-[#ff7d1e] to-[#fd40e5] rounded-lg lg:w-auto"
               >
                 PC Builder
               </Link>
