@@ -8,21 +8,24 @@ const ProductCard = ({ product }) => {
     category,
     status,
     price,
-    imgUrl,
+    imageUrl,
     individualRating,
   } = product;
 
   return (
-    <Link href={`/product/${_id}`} className="bg-white rounded-xl">
-      <Image
-        src={imgUrl}
-        alt={productName}
-        className="w-full h-60 object-cover"
-      />
+    <Link
+      href={`/product/${_id}`}
+      className="bg-white rounded-xl flex flex-col items-center"
+    >
+      <Image src={imageUrl} alt={productName} width={300} height={300} />
       <div className="p-4">
-        <h2 className="text-lg font-semibold mb-2">{productName}</h2>
-        <p className="text-gray-600 text-sm mb-2">{category}</p>
-        <p className="text-gray-700 text-lg font-semibold">${price}</p>
+        <h2 className="text-lg font-semibold mb-1 hover:underline">
+          {productName}
+        </h2>
+        <span className="bg-emerald-100 px-3 py-1 rounded-md text-emerald-700 text-xs">
+          {category}
+        </span>
+        <p className="text-gray-700 text-lg font-semibold mt-4">${price}</p>
         <div className="flex items-center justify-between">
           <div>
             <p

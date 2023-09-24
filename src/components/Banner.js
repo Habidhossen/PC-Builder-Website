@@ -2,17 +2,17 @@ import Link from "next/link";
 
 const Banner = () => {
   return (
-    <section
-      className="bg-gradient-to-b from-blue-50 to-blue-200 h-screen"
-      style={{ maxHeight: `calc(100vh - 80px)` }}
-    >
-      <div className="container py-28 mx-auto relative text-center">
+    <section className="bg-white h-screen">
+      <div className="container pt-60 md:pt-40 lg:pt-40 mx-auto relative text-center">
         <div className="flex flex-col items-center justify-center h-full">
-          <div className="w-1/2">
+          <div className="">
             <div>
-              <h1 className="text-6xl font-extrabold leading-snug">
+              <h1 className="text-5xl md:text-6xl lg:text-8xl font-bold leading-snug md:leading-tight lg:leading-tight">
                 Build Your <br />
-                Dream PC Today
+                <span className="text-transparent bg-gradient-to-r from-[#ff7d1e] to-[#fd40e5] bg-clip-text">
+                  Dream PC
+                </span>{" "}
+                Today!
               </h1>
               <p className="mt-4">
                 Explore, Customize, and Create Your Perfect PC with Our
@@ -23,9 +23,9 @@ const Banner = () => {
             <div className="mt-8">
               <Link
                 href="pc-builder"
-                className="w-full px-6 py-3 mt-6 text-sm text-white duration-300 transform bg-slate-950 rounded-lg lg:w-auto hover:bg-slate-800"
+                className="w-full px-8 py-3 mt-6 text-md text-white duration-300 transform bg-slate-950 rounded-lg lg:w-auto hover:bg-slate-800"
               >
-                PC Builder
+                Build Now
               </Link>
             </div>
           </div>

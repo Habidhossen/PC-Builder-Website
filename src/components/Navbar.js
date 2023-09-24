@@ -35,11 +35,13 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-blue-50 border-b w-full md:static md:text-sm md:border-none">
+    <nav className="bg-white backdrop-blur-md bg-opacity-60 fixed top-0 left-0 right-0 z-10 text-sm">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <Link href="/">
-            <h1 className="text-2xl font-bold text-indigo-600">PC.</h1>
+            <h1 className="text-2xl font-black text-transparent bg-gradient-to-l from-[#ff7d1e] to-[#fd40e5] bg-clip-text">
+              dreamPC.
+            </h1>
           </Link>
           <div className="md:hidden">
             <button
@@ -79,7 +81,7 @@ const Navbar = () => {
           </div>
         </div>
         <div
-          className={`flex-1 pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+          className={`flex-1 pb-3 mt-8 md:block md:pb-0 md:mt-0 lg:mt-0 ${
             state ? "block" : "hidden"
           }`}
         >
@@ -112,7 +114,7 @@ const Navbar = () => {
               <ul
                 className={`${
                   isDropdownOpen ? "block" : "hidden"
-                } w-36 space-y-4 px-3 py-2 absolute top-full left-0 mt-1 bg-white border rounded-lg shadow-md`}
+                } w-36 space-y-4 px-3 py-2 absolute top-full left-0 mt-1 border rounded-lg shadow-md bg-white`}
               >
                 {categories.map((category) => (
                   <li key={category.slug}>
@@ -131,7 +133,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="pc-builder"
-                className="w-full px-6 py-3 mt-6 text-sm text-white duration-300 transform bg-slate-950 rounded-lg lg:w-auto hover:bg-slate-800"
+                className="w-full px-8 py-3 mt-6 text-sm font-semibold text-white duration-300 bg-gradient-to-r from-[#ff7d1e] to-[#fd40e5] hover:bg-gradient-to-l from-[#ff7d1e] to-[#fd40e5] rounded-lg lg:w-auto"
               >
                 PC Builder
               </Link>
