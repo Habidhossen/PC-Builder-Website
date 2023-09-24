@@ -92,7 +92,7 @@ const Navbar = () => {
               onMouseEnter={openDropdown}
               onMouseLeave={closeDropdown}
             >
-              <button className="hover:text-blue-500 p-2 rounded flex items-center justify-between gap-2">
+              <button className="hover:text-[#ff7d1e] p-2 rounded flex items-center justify-between gap-2">
                 <span>Categories</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +120,7 @@ const Navbar = () => {
                   <li key={category.slug}>
                     <Link
                       href={`/category/${category.slug}`}
-                      className="hover:text-blue-500"
+                      className="hover:text-[#ff7d1e]"
                     >
                       {category.name}
                     </Link>

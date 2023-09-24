@@ -15,9 +15,15 @@ const ProductCard = ({ product }) => {
   return (
     <Link
       href={`/product/${_id}`}
-      className="bg-white  rounded-3xl flex flex-col items-center"
+      className="bg-white rounded-2xl flex flex-col items-center"
     >
-      <Image src={imageUrl} alt={productName} width={300} height={300} />
+      <Image
+        src={imageUrl}
+        alt={productName}
+        width={300}
+        height={300}
+        className="rounded-2xl"
+      />
       <div className="px-5 py-4">
         <h2 className="text-md font-semibold hover:underline">{productName}</h2>
 

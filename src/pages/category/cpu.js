@@ -4,24 +4,26 @@ import Link from "next/link";
 
 const CPUProcessorPage = ({ productData }) => {
   return (
-    <section className="container mx-auto px-8 md:px-12 lg:px-20 py-12">
+    <section className="container mx-auto px-8 md:px-12 lg:px-20 py-24">
       {/* Breadcrumb */}
-      <nav className="text-md">
+      <nav className="text-sm mb-6">
         <ol className="list-reset flex text-grey">
           <li className="mr-2">
-            <Link href="/" className="text-blue-500 hover:underline">
+            <Link href="/" className="text-black font-semibold hover:underline">
               Home
             </Link>
           </li>
           <li className="mr-2">
             <span>&gt;</span>
           </li>
-          <li className="text-gray-600 font-semibold">CPU and Processor</li>
+          <li className="text-transparent bg-gradient-to-r from-[#ff7d1e] to-[#fd40e5] bg-clip-text font-semibold">
+            CPU and Processor
+          </li>
         </ol>
       </nav>
 
       {/* Content */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 py-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {productData.map((product) => (
           <ProductCard key={product._id} product={product} />
         ))}
