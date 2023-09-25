@@ -15,9 +15,35 @@
       { "key": "TDP", "value": "125W" }
     ],
     "individualRating": 4.8,
-    "averageRating": null,
-    "reviews": [],
-    "imageUrl": "[URL]"
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "username": "John Doe",
+        "comments": "Great product, I loved it!",
+        "rating": 5
+      },
+      {
+        "username": "Jane Smith",
+        "comments": "Not bad, but could be better.",
+        "rating": 3
+      },
+      {
+        "username": "Robert Johnson",
+        "comments": "Terrible experience, wouldn't recommend.",
+        "rating": 1
+      },
+      {
+        "username": "Emily Davis",
+        "comments": "Good value for money.",
+        "rating": 4
+      },
+      {
+        "username": "Michael Wilson",
+        "comments": "Excellent service and fast delivery!",
+        "rating": 5
+      }
+    ],
+    "imageUrl": "https://www.computervillage.com.bd/image/cache/catalog/uploads/products/photos/item_Intel-10th-Gen-Core-i3-10100-Processor-__1645596954-550x550.jpeg.webp"
   },
   {
     "productName": "AMD Ryzen 7 5800X",
@@ -34,10 +60,21 @@
       { "key": "Socket", "value": "AM4" },
       { "key": "TDP", "value": "105W" }
     ],
-    "individualRating": 4.9,
-    "averageRating": null,
-    "reviews": [],
-    "imageUrl": "[URL]"
+    "individualRating": 5,
+    "averageRating": 5,
+    "reviews": [
+      {
+        "username": "Robert Johnson",
+        "comments": "Terrible experience, wouldn't recommend.",
+        "rating": 1
+      },
+      {
+        "username": "Emily Davis",
+        "comments": "Good value for money.",
+        "rating": 4
+      }
+    ],
+    "imageUrl": "https://www.computervillage.com.bd/image/cache/catalog/uploads/products/photos/item_AMD-Ryzen-3-3200G-Processor-with-Radeon-RX-Vega-8-Graphics-__1646202063-550x550.jpeg.webp"
   },
   {
     "productName": "AMD Ryzen 5 5600X",
@@ -74,10 +111,10 @@
       { "key": "Socket", "value": "LGA 1200" },
       { "key": "TDP", "value": "125W" }
     ],
-    "individualRating": 4.6,
-    "averageRating": null,
+    "individualRating": 4.5,
+    "averageRating": 4.5,
     "reviews": [],
-    "imageUrl": "[URL]"
+    "imageUrl": "https://www.computervillage.com.bd/image/cache/catalog/uploads/products/photos/item_Intel-10th-Gen-Core-i3-10100-Processor-__1645596954-550x550.jpeg.webp"
   },
   {
     "productName": "AMD Ryzen 9 5950X",
