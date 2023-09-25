@@ -1,3 +1,4 @@
+import { signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -7,6 +8,9 @@ const Navbar = () => {
 
   // declare state for handling navigation bar dropdown
   const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+  // next auth session
+  const { data: session } = useSession();
 
   // handle dropdown open and close
   let timeoutId;
@@ -20,6 +24,8 @@ const Navbar = () => {
       setDropdownOpen(false);
     }, 300); // Adjust the delay as needed
   };
+
+  console.log(session?.user);
 
   // categories data
   const categories = [
@@ -85,7 +91,7 @@ const Navbar = () => {
             state ? "block" : "hidden"
           }`}
         >
-          <ul className="justify-end items-center space-y-6 md:flex md:space-x-6 md:space-y-0">
+          <ul className="justify-end items-center space-y-6 md:flex md:space-x-5 md:space-y-0">
             {/* dropdown */}
             <div
               className="relative group z-10"
@@ -128,7 +134,20 @@ const Navbar = () => {
                 ))}
               </ul>
             </div>
-
+            <li>
+              {session?.user ? (
+                <button
+                  onClick={() => signOut()}
+                  className="hover:text-[#ff7d1e] text-red-500 font-bold"
+                >
+                  Logout
+                </button>
+              ) : (
+                <Link href="/login" className="hover:text-[#ff7d1e]">
+                  Login
+                </Link>
+              )}
+            </li>
             {/* button */}
             <li>
               <Link
