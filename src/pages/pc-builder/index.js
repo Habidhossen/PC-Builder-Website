@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { toast } from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux";
-import processorIcon from "../../assets/images/processor.webp";
 
 const PcBuilderPage = () => {
   // categories data
@@ -101,9 +100,10 @@ const PcBuilderPage = () => {
                     .map((component, componentIndex, componentArray) => (
                       <div key={componentIndex}>
                         <div className="bg-white flex items-center justify-between px-4 py-5">
-                          <div className="flex items-center gap-4">
+                          <div className="flex items-center gap-4 rounded-full">
                             <Image
-                              src={processorIcon}
+                              // src={processorIcon}
+                              src={component?.imageUrl}
                               alt={component?.productName}
                               width={60}
                               height={60}
