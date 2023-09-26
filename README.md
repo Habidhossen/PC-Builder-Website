@@ -1,38 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Simple PC Builder Website
 
-## Getting Started
+The PC Builder website is a platform for users to select and build their own PC by choosing various PC components and parts. The website is built using Next.js and incorporates both Static Site Generation (SSG) and Server-Side Rendering (SSR) to provide a seamless user experience.
 
-First, run the development server:
+### Live site and Server URL:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Website URL: []()
+- Server URL: [https://pc-builder-server-mtgs.onrender.com/api/v1/product](https://pc-builder-server-mtgs.onrender.com/api/v1/product)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Navbar
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- PC Builder Button: Clicking on the "PC Builder" button in the navbar redirects users to the PC Builder page where they can start building their PC.
+- Categories Dropdown: The navbar includes a Categories dropdown.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Home Page (SSG Implementation)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Featured Products: The home page displays at least 6 random PC components as Featured Products.
+- Clickable Featured Products: Users can click on any Featured Product to view its details.
+- Featured Categories: There are 6 Featured Categories under the Featured Product section, including "Others" for miscellaneous components.
 
-## Learn More
+### Featured Category Sections (SSG Implementation)
 
-To learn more about Next.js, take a look at the following resources:
+- Clickable Featured Categories: Clicking on any Featured Category redirects the user to a page displaying at least 3 products of that category. Each product card shows the same properties as Featured Products.
+- Clickable Products: Users can click on any product card to view its details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Product Detail Page (SSG Implementation)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Product Details: Each PC component has the following properties displayed on its detail page:
+  - Image
+  - Product Name
+  - Category
+  - Status (In Stock | Out of Stock)
+  - Price
+  - Description
+  - Key Features
+  - Individual Rating (Out of 5 Stars)
+  - Average Rating (Out of 5 Stars)
+  - Reviews
 
-## Deploy on Vercel
+### PC Builder Page (SSR Implementation)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Category Sections: The PC Builder page features category sections for:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  - CPU / Processor
+  - Motherboard
+  - RAM
+  - Power Supply Unit
+  - Storage Device
+  - Monitor
+  - GPU
+  - Mouse
+  - Keyboard
+
+- Choose Button: Each category section includes a Choose Button that redirects users to a page displaying at least 3 components of that category, each with its properties.
+
+- Add To Builder Button: On the component page, users can add a component to their PC builder by clicking the "Add To Builder" button. The selected component is updated in the PC Builder page.
+
+- Complete Build Button: Users can click the "Complete Build" button after adding at least 5 components. The button is disabled until the user meets this requirement.
+
+### Bonus Features
+
+- Authentication: The PC Builder Page is a protected/private route, accessible only to logged-in users. Authentication is implemented using NextAuth with at least one social login provider (e.g, Google ).
+
+- Success Alert: Clicking the "Complete Build" button on the PC Builder page displays a success alert and also added success alert in others features like Add to Builder, Remove from Builder Button.
+
+- Hero Section and Footer: The Home page includes a hero section/banner section and a footer to enhance user experience.
+
+- Responsive Design: The entire application is responsive, ensuring a seamless user experience on both mobile and desktop devices.
+
+### Technologies Used
+
+- Next.js: The core framework for building the web application.
+- NextAuth.js: For user authentication and social login integration.
+- Redux: For managing state, especially in the PC Builder section.
+- Tailwind CSS: Used for responsive styling and design of the web pages.
+- React Hot Toast: For displaying toast notifications to enhance user experience.
+- Node.js: The runtime environment for server-side code.
+- Express.js: A Node.js web application framework used for handling server-side logic.
+- MongoDB: A NoSQL database used for storing and managing data.
+- Mongoose: An Object Data Modeling (ODM) library for MongoDB used for simplifying interactions with the database.
