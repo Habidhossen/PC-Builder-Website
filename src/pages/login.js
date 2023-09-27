@@ -10,7 +10,8 @@ const LoginPage = () => {
         <button
           onClick={() =>
             signIn("google", {
-              callbackUrl: "http://localhost:3000/pc-builder",
+              callbackUrl:
+                "https://pc-builder-website-habidhossen.vercel.app/pc-builder",
             })
           }
           className="w-full flex items-center justify-center gap-x-3 py-2.5 mt-5 border rounded-lg text-sm font-medium hover:bg-gray-50 duration-150 active:bg-gray-100"
